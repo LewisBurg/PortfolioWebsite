@@ -1,8 +1,25 @@
-/* Basic styling for the navigation bar */
+/*basic styling for universal things*/
+body {
+    color: #e9eef4;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #0a121d;
+}
+
+#border {
+    margin: 0 auto;
+    width: 95%;
+    height: 1000px;
+    background-color: #0a121d;
+    
+}
+
+/* navigation bar */
 nav {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    height: 50px;
+    background-color: #0f70f5;
+    color: #e9eef4;
+    padding: 10px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,13 +31,13 @@ nav ul {
     display: flex;
 }
 nav ul li {
-    margin-left: 20px;
+    margin-left: 80px;
 }
 nav ul li:first-child {
     margin-left: 0;
 }
 nav ul li a {
-    color: white;
+    color: #e9eef4;
     text-decoration: none;
 }
 nav ul li a:hover {
@@ -29,3 +46,66 @@ nav ul li a:hover {
 .logo {
     font-size: 24px;
 }
+
+/*about and pic*/
+
+#aboutandpic {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 13%
+}
+
+#about {
+    font-size: 18px;
+    text-align: right;
+    width: 700px;
+    margin-right: 50px;
+    /*border: #97b8e7 solid 4px;*/
+    background-color:#97b8e71e;
+    border-radius: 10px;
+    padding: 1px 30px;
+}
+
+#about h2 {
+    padding: 0%;
+    margin: 4%;
+}
+
+#profilepic{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    border: #97b8e7 solid 4px;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-self: center;
+    margin: 0px;
+}
+
+/*devlogos*/
+
+#devlogos {
+    display: flex;
+    margin: 0% 10%;
+    justify-content: space-between;
+    background-color:#97b8e7;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#devlogos img {
+    width: 70px;
+}
+
+/*projects*/
+#projects {
+    text-align: center;
+}
+
+/*contact*/
+#contact {
+    text-align: center;
+}
+
