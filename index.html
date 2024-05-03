@@ -37,7 +37,7 @@
             </section>
 
             <section id="profilepic">
-                <img src="resources/images/portfolioprofileimage.jpg" alt="Image of Lewis Burgess">
+                <img src="resources/images/portfolioprofileimage.jpg" alt="Image of Lewis Burgess" onclick="rotateImage()">
             </section>
         </div>
 
@@ -105,6 +105,14 @@
                 <img src="resources/images/linkedin.svg" alt="">
             </div>
         </section>
+
+<script>
+    function rotateImage() {
+    var img = document.getElementById('profilepic');
+    img.classList.toggle('rotated');
+}
+
+</script>
 
 </body>
 </html>

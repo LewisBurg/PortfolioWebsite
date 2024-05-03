@@ -60,6 +60,19 @@ nav ul li a:hover {
     margin: 5% 13%
 }
 
+#aboutandpic button {
+    border-radius: 100%;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.rotated {
+    transform: rotate(360deg);
+    transition: transform 1s ease; /* Add smooth transition effect */
+}
+
 #about {
     font-family: Roboto, sans-serif;
     font-size: 16px;
