@@ -62,7 +62,7 @@ nav ul li a:hover {
 
 #about {
     font-family: Roboto, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-align: right;
     width: 700px;
     margin-right: 50px;
@@ -100,8 +100,6 @@ nav ul li a:hover {
 /*devlogos*/
 
 #devlogos {
-    height: 80px;
-    max-height: 80px;
     display: flex;
     margin: 0% 10%;
     justify-content: space-between;
@@ -181,3 +179,48 @@ nav ul li a:hover {
     box-shadow: #00000073 0px 7px 3px 3px;
 }
 
+
+@media only screen and (max-width: 880px) {
+    #aboutandpic {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+        margin: 5% 13%
+    }
+
+    #about {
+        margin-top: 5%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    nav {
+        height: 120px;
+        text-align: center;
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    nav h1 {
+        margin-top: 0%;
+    }
+
+    nav ul li {
+        padding-bottom: 5%;
+    }
+
+    #devlogos {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #projcontainer {
+        flex-wrap: wrap;
+    }
+
+    .projects {
+        margin: 2%;
+    }
+    
+}
